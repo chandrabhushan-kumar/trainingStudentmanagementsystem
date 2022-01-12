@@ -1,0 +1,15 @@
+.pagenotfound img{
+	width: 40%;
+    transform: translateX(80%);
+}
+.error-heading{
+	text-align: center;
+	font-weight: 600;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+.error-subheading{
+	text-align: center;
+	margin-top: 0;
+    margin-bottom: 30px;
+}

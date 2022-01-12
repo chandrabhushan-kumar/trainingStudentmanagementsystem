@@ -1,0 +1,128 @@
+.profilePic{
+	height: 300px;
+	background-color: #fdfdfd;
+	border-radius: 5px 5px 0 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.profileback{
+	height: 250px;
+	background-image: url("/images/profile-back.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 45%;	
+	background-size: 100%;
+}
+/*.profileback img{
+	width: 100%;
+	height: 100%;
+}*/
+.profilefront{
+	padding: 5px;
+}
+.studentImg{
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	background-color: #eee;
+	margin-top: -100px;
+    margin-left: 30px;
+	position: absolute;
+	z-index: 999;
+}
+.studentImg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.studentName{
+	margin-top: -55px;
+	color: #fff;
+	position: absolute;
+	margin-left: 170px;
+}
+.studentName h3{
+	padding: 0;
+	margin:0;
+}
+.actions{
+	padding: 0 40px;
+}
+.actions:hover .actionLink{
+	font-weight: bold;
+	font-size: 18px;
+}
+.actionLink{
+	height: 45px;
+	width: 45px;
+	float: right;
+	background-color: #5C77FF;
+	color: #fff;
+	font-size: 16px;	
+	border-radius: 100%;
+	height: 100%;
+	margin: -4px 10px;
+	text-align: center;
+	padding: 12px 10px;
+	cursor: pointer;
+	z-index: 999;
+}
+.personalInfo, .contactInfo{
+	height: 260px;
+}
+.personalInfo, .contactInfo, 
+.academicInfo, .documentsInfo,
+.courseInfo{
+	background-color: #fdfdfd;
+}
+.blockrow{
+	margin-bottom: 30px;
+}
+.blockHeading{
+	font-size: 16px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+}
+.academicHeading{
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+.field{
+	padding-bottom: 10px;
+}
+.field-icon{
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+	border-radius: 100%;
+	background-color: #eee;
+	color: #00f;
+}
+.doc-icon{
+	padding: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	color: #00f;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+.doc-icon:hover{
+	border: 1px solid #ddd;
+	background-color: #eee;
+	
+}
+.academicInfo table{
+	border-top: 3px solid #00f;
+}
+.academicInfo table thead th{
+	padding: 15px;
+}
+.academicInfo table tbody td{
+	padding: 10px 15px;
+}
+.filepath{
+	color: #666;
+}
+.actionLink a{
+	text-decoration: none;
+	color: #fff;
+}

@@ -1,0 +1,135 @@
+.padding-left0{
+	padding-left: 0
+}
+.padding-right0{
+	padding-right: 0
+}
+.main-container{
+	/*margin-top: 70px;*/
+}
+.box-label{
+	padding: 7px 0 0 15px;
+	float: right;
+}
+input[type="radio"]{
+	height: 25px;
+    width: 25px;
+}
+.genderlabel{
+	margin-bottom: 0;
+}
+.nationality{
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+.formRow{
+	padding: 15px 15px;
+}
+.btnRow{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.studentForm{
+	border-top: 3px solid #5c77ff;
+    padding: 15px;
+    margin: 0 10px;
+    box-shadow: 0px 5px 5px #aaa;
+}
+.section-header h5{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.showInsuranceDoc{
+	padding: 0;
+}
+.showInsuranceDoc img{
+	width: 100%;
+	height: 100px;
+	padding-bottom: 10px;
+	padding-left: 5px; 
+	padding-right: 5px; 
+}
+.showInsuranceDoc i{
+	position: absolute;
+    right: -3px;
+    top: -8px;
+}
+.file-select{
+	margin-left: 50%;
+    transform: translateX(-25%);
+}
+.profile-photo{
+	text-align: center;
+}
+.imageBlock{
+	width: 140px;
+	height: 120px;
+	/*border-radius: 100%;*/
+	border: 1px solid #999;
+	margin-bottom: 15px;
+}
+.imageBlock img{
+	width: 100%;
+}
+.imageBlock i{
+	position: absolute;
+    right: 93px;
+    top: 7px;
+}
+.submit-btn{
+	background-color: #5c77ff;
+    font-size: 20px;
+	color: #fff;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.submit-btn:hover{
+    color: #fff;
+    font-size: 21px;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #999;
+    text-align: center;
+    background-color: #eee;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #eee;
+    background-image: none;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.tblRow{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.mark .form-control:focus{
+    box-shadow: none;
+    border-bottom: 2px solid #337ab7;
+}
+.mark .form-control:hover{
+    border-bottom: 2px solid #337ab7;
+    box-shadow: none;
+    border-radius: 3px;
+}

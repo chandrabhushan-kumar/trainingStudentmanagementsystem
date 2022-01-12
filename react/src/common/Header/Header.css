@@ -1,0 +1,90 @@
+.headerbar{
+	background-color: #fff;
+    border-bottom: 1px solid #eee;
+	height: 50px;
+}
+.menuBtn{
+	width: 40px;
+    height: 80%;
+    float: left;
+    font-size: 24px;
+    color: #5c77ff;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 0;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menuBtn:hover{
+    background-color: #fafafa;
+}
+.user{
+    min-width: 100px;
+    height: 80%;
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.user:hover{
+    background-color: #fafafa;
+    border-radius: 4px;
+}
+.adminLogin{
+	width: 50px;
+	height: 100%;
+	float: right;
+    text-align: center;
+    padding-top: 5px;
+}
+.adminLogin img{
+	width: 60%;
+	border-radius: 100%;
+}
+.userName{
+    min-width: 100px;
+    padding-top: 10px;
+    text-align: right;
+    font-weight: 600;
+    color: #555;
+}
+.userDetails{
+    padding: 15px;
+    background-color: #5c77ff;
+    color: #fff;
+    font-size: 16px;
+}
+.userDetails .user-icon{
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #eee;
+}
+.logout{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #5c77ff;
+    padding: 20px;
+    cursor: pointer;
+}
+.logout a{
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.logout a:hover{
+    background-color: #fafafa;
+    border-radius: 4px;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 15px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 5px 5px #f1f1f1;
+  border-radius: 5px;
+  z-index: 9;
+  min-width: 200px;
+  background-color: #fff;
+}
